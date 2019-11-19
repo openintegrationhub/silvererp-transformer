@@ -1,11 +1,11 @@
 {
-  "title": "Adress Transformation",
+  "title": "Address Transformation",
   "description": "Generic Data Transformation Component",
   "actions": {
     "transformPersonFromOih": {
       "title": "Transform a person from OIH",
       "description": "Transform the incoming data from OIH",
-      "main": "./lib/actions/transformAdressFromOih.js",
+      "main": "./lib/actions/transformAddressFromOih.js",
       "metadata": {
         "out": {}
       }
@@ -13,7 +13,7 @@
     "transformPersonToOih": {
       "title": "Transform a person to OIH",
       "description": "Transform the incoming data to OIH",
-      "main": "./lib/actions/transformAdressToOih.js",
+      "main": "./lib/actions/transformAddressToOih.js",
       "metadata": {
         "out": {}
       }
