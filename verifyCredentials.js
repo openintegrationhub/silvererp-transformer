@@ -1,4 +1,3 @@
-const MagentoClient = require('./lib/petstoreClient');
 
 /**
  * Executes the verification logic by sending a simple to the Petstore API using the provided apiKey.
@@ -8,23 +7,24 @@ const MagentoClient = require('./lib/petstoreClient');
  *
  * @returns boolean of whether or not the request was successful
  */
+
+const { getToken } = require('./lib/utils/silvererp');
+
+
 module.exports = async function verify(credentials) {
-  const { apiKey } = credentials;
+	const { apiKey } = credentials;
 
-  if (!apiKey) throw new Error('API key is missing');
+	if (!apiKey) throw new Error('API key is missing');
+	try {
+		const token = await getToken(apikey);
 
-  const client = new MagentoClient(this, credentials);
-
-  try {
-    // sending a request to the most simple endpoint of the target API
-    await client.makeRequest({
-      url: '/user/me',
-      method: 'GET',
-    });
-
-    // if the request succeeds, we can assume the api key is valid
-    return true;
-  } catch (e) {
-    return false;
-  }
+		if (token !== null) {
+			cb(null, { verified: true });
+			console.log('Credentials verified successfully - Correct');
+			return true;
+		}
+		return false;
+	} catch (e) {
+		return false;
+	}
 };
