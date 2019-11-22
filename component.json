@@ -1,6 +1,6 @@
 {
   "title": "Address Transformation",
-  "description": "Generic Data Transformation Component",
+  "description": "Data Transformation Component",
   "actions": {
     "transformPersonFromOih": {
       "title": "Transform a person from OIH",

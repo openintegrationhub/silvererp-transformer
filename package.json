@@ -1,7 +1,7 @@
 {
 	"name": "@oih/silvererp-transformer",
 	"version": "1.2.1",
-	"description": "SilvERP Adress Transformer",
+	"description": "SilvERP Transformer",
 	"homepage": "https://www.silverp.com",
 	"author": {
 		"name": "yQ-it",
@@ -11,14 +11,10 @@
 		"lib"
 	],
 	"keywords": [
-		"template",
 		"transformer",
 		"silvererp",
 		"silverp"
 	],
-	"scripts": {
-		"start": "node ./node_modules/elasticio-sailor-nodejs/run.js"
-	},
 	"engines": {
 		"node": "8.16.2",
 		"npm": ">=5.4"
