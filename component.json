@@ -27,7 +27,7 @@
 			}
 		},
 		"transformArticleFromOih": {
-			"title": "Transform an Article to OIH",
+			"title": "Transform an Article from OIH",
 			"description": "Transform the incoming data to OIH",
 			"main": "./lib/actions/transformArticleFromOih.js",
 			"metadata": {
@@ -35,7 +35,7 @@
 			}
 		},
 		"transformOrganisationToOih": {
-			"title": "Transform an Article to OIH",
+			"title": "Transform an Organisation to OIH",
 			"description": "Transform the incoming data to OIH",
 			"main": "./lib/actions/transformOrganisationToOih.js",
 			"metadata": {
@@ -43,7 +43,7 @@
 			}
 		},
 		"transformOrganisationFromOih": {
-			"title": "Transform an Article to OIH",
+			"title": "Transform an Organisation from OIH",
 			"description": "Transform the incoming data to OIH",
 			"main": "./lib/actions/transformOrganisationFromOih.js",
 			"metadata": {
