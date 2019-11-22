@@ -1,22 +1,54 @@
 {
-  "title": "Address Transformation",
-  "description": "Data Transformation Component",
-  "actions": {
-    "transformPersonFromOih": {
-      "title": "Transform a person from OIH",
-      "description": "Transform the incoming data from OIH",
-      "main": "./lib/actions/transformAddressFromOih.js",
-      "metadata": {
-        "out": {}
-      }
-    },
-    "transformPersonToOih": {
-      "title": "Transform a person to OIH",
-      "description": "Transform the incoming data to OIH",
-      "main": "./lib/actions/transformAddressToOih.js",
-      "metadata": {
-        "out": {}
-      }
-    }
-  }
+	"title": "Address Transformation",
+	"description": "Data Transformation Component",
+	"actions": {
+		"transformPersonFromOih": {
+			"title": "Transform a Person from OIH",
+			"description": "Transform the incoming data from OIH",
+			"main": "./lib/actions/transformAddressFromOih.js",
+			"metadata": {
+				"out": {}
+			}
+		},
+		"transformPersonToOih": {
+			"title": "Transform a Person to OIH",
+			"description": "Transform the incoming data to OIH",
+			"main": "./lib/actions/transformAddressToOih.js",
+			"metadata": {
+				"out": {}
+			}
+		},
+		"transformArticleToOih": {
+			"title": "Transform an Article to OIH",
+			"description": "Transform the incoming data to OIH",
+			"main": "./lib/actions/transformArticleToOih.js",
+			"metadata": {
+				"out": {}
+			}
+		},
+		"transformArticleFromOih": {
+			"title": "Transform an Article to OIH",
+			"description": "Transform the incoming data to OIH",
+			"main": "./lib/actions/transformArticleFromOih.js",
+			"metadata": {
+				"out": {}
+			}
+		},
+		"transformOrganisationToOih": {
+			"title": "Transform an Article to OIH",
+			"description": "Transform the incoming data to OIH",
+			"main": "./lib/actions/transformOrganisationToOih.js",
+			"metadata": {
+				"out": {}
+			}
+		},
+		"transformOrganisationFromOih": {
+			"title": "Transform an Article to OIH",
+			"description": "Transform the incoming data to OIH",
+			"main": "./lib/actions/transformOrganisationFromOih.js",
+			"metadata": {
+				"out": {}
+			}
+		}
+	}
 }
