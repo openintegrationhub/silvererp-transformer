@@ -4,7 +4,7 @@
 	"actions": {
 		"transformPersonFromOih": {
 			"title": "Transform a Person from OIH",
-			"description": "Transform the incoming data from OIH",
+			"description": "Transform the outgoing data from OIH",
 			"main": "./lib/actions/transformAddressFromOih.js",
 			"metadata": {
 				"out": {}
@@ -19,16 +19,16 @@
 			}
 		},
 		"transformArticleToOih": {
-			"title": "Transform an Article to OIH",
-			"description": "Transform the incoming data to OIH",
+			"title": "Transform an Product to OIH",
+			"description": "Transform the incoming to OIH",
 			"main": "./lib/actions/transformArticleToOih.js",
 			"metadata": {
 				"out": {}
 			}
 		},
 		"transformArticleFromOih": {
-			"title": "Transform an Article from OIH",
-			"description": "Transform the incoming data to OIH",
+			"title": "Transform an Product from OIH",
+			"description": "Transform the outgoing data to OIH",
 			"main": "./lib/actions/transformArticleFromOih.js",
 			"metadata": {
 				"out": {}
@@ -44,7 +44,7 @@
 		},
 		"transformOrganisationFromOih": {
 			"title": "Transform an Organisation from OIH",
-			"description": "Transform the incoming data to OIH",
+			"description": "Transform the outgoing data from OIH",
 			"main": "./lib/actions/transformOrganisationFromOih.js",
 			"metadata": {
 				"out": {}
