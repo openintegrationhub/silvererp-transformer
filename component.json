@@ -21,7 +21,7 @@
 		"transformArticleToOih": {
 			"title": "Transform an Product to OIH",
 			"description": "Transform the incoming to OIH",
-			"main": "./lib/actions/transformArticleToOih.js",
+			"main": "./lib/actions/transformProductToOih.js",
 			"metadata": {
 				"out": {}
 			}
@@ -29,7 +29,7 @@
 		"transformArticleFromOih": {
 			"title": "Transform an Product from OIH",
 			"description": "Transform the outgoing data to OIH",
-			"main": "./lib/actions/transformArticleFromOih.js",
+			"main": "./lib/actions/transformProductFromOih.js",
 			"metadata": {
 				"out": {}
 			}
@@ -46,6 +46,22 @@
 			"title": "Transform an Organisation from OIH",
 			"description": "Transform the outgoing data from OIH",
 			"main": "./lib/actions/transformOrganisationFromOih.js",
+			"metadata": {
+				"out": {}
+			}
+		},
+		"transformCountryToOih": {
+			"title": "Transform an Country to OIH",
+			"description": "Transform the incoming data to OIH",
+			"main": "./lib/actions/transformCountryToOih.js",
+			"metadata": {
+				"out": {}
+			}
+		},
+		"transformCountryFromOih": {
+			"title": "Transform an Country from OIH",
+			"description": "Transform the outgoing data from OIH",
+			"main": "./lib/actions/transformCountryFromOih.js",
 			"metadata": {
 				"out": {}
 			}
