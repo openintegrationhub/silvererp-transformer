@@ -49,6 +49,22 @@
 			"metadata": {
 				"out": {}
 			}
+		},
+		"transformUnitToOih": {
+			"title": "Transform an Unit to OIH",
+			"description": "Transform the incoming data to OIH",
+			"main": "./lib/actions/transformUnitToOih.js",
+			"metadata": {
+				"out": {}
+			}
+		},
+		"transformUnitFromOih": {
+			"title": "Transform an Unit from OIH",
+			"description": "Transform the outgoing data from OIH",
+			"main": "./lib/actions/transformUnitFromOih.js",
+			"metadata": {
+				"out": {}
+			}
 		}
 	}
 }
