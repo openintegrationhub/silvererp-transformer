@@ -34,22 +34,6 @@
 				"out": {}
 			}
 		},
-		"transformOrganisationToOih": {
-			"title": "Transform an Organisation to OIH",
-			"description": "Transform the incoming data to OIH",
-			"main": "./lib/actions/transformOrganisationToOih.js",
-			"metadata": {
-				"out": {}
-			}
-		},
-		"transformOrganisationFromOih": {
-			"title": "Transform an Organisation from OIH",
-			"description": "Transform the outgoing data from OIH",
-			"main": "./lib/actions/transformOrganisationFromOih.js",
-			"metadata": {
-				"out": {}
-			}
-		},
 		"transformCountryToOih": {
 			"title": "Transform an Country to OIH",
 			"description": "Transform the incoming data to OIH",
